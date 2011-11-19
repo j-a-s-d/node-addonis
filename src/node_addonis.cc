@@ -30,7 +30,7 @@ std::stack<Handle<Object>> _constructionStack;
 #pragma comment(lib, "node")
 #include <node.h>
 
-extern "C" void NODE_EXPORT init (Handle<Object> target)
+extern "C" void NODE_EXTERN init (Handle<Object> target)
 {
 	_module = target;
 	_constructionStack.push(_module);

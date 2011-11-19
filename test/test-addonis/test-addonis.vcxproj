@@ -40,14 +40,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
     <TargetExt>.node</TargetExt>
-    <IncludePath>..\..\src\;c:\node.js\bmeck\deps\uv\include\;c:\node.js\bmeck\deps\v8\include\;C:\node.js\bmeck\src\;$(IncludePath)</IncludePath>
-    <LibraryPath>c:\node.js\bmeck\Debug;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\src\;c:\node.js\0.6.2\deps\uv\include\;c:\node.js\0.6.2\deps\v8\include\;C:\node.js\0.6.2\src\;$(IncludePath)</IncludePath>
+    <LibraryPath>c:\node.js\0.6.2\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <TargetExt>.node</TargetExt>
-    <IncludePath>..\..\src\;c:\node.js\bmeck\deps\uv\include\;c:\node.js\bmeck\deps\v8\include\;C:\node.js\bmeck\src\;$(IncludePath)</IncludePath>
-    <LibraryPath>c:\node.js\bmeck\Release;$(LibraryPath)</LibraryPath>
+    <IncludePath>..\..\src\;c:\node.js\0.6.2\deps\uv\include\;c:\node.js\0.6.2\deps\v8\include\;C:\node.js\0.6.2\src\;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\node.js\0.6.2\Release;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
