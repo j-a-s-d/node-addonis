@@ -7,6 +7,8 @@
 
 **/
 
+#include <v8stdint.h>
+
 // general
 bool isModuleSelected();
 bool hasMember(const char *name);
@@ -82,5 +84,6 @@ bool isFunctionArgument(int argumentNumber);
 bool getBooleanArgument(int argumentNumber);
 unsigned int getUnsignedIntegerArgument(int argumentNumber);
 int getIntegerArgument(int argumentNumber);
+int64_t get64BitsIntegerArgument(int argumentNumber);
 double getDoubleArgument(int argumentNumber);
 const char* getStringArgument(int argumentNumber);

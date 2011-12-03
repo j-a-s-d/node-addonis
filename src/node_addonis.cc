@@ -214,6 +214,15 @@ unsigned int getUnsignedIntegerArgument(int argumentNumber)
 	}
 }
 
+int64_t get64BitsIntegerArgument(int argumentNumber)
+{
+	if (_currentArgs.count > argumentNumber) {
+		return _currentArgs.arguments[argumentNumber]->IntegerValue();
+	} else {
+		return false;
+	}
+}
+
 bool isIntegerArgument(int argumentNumber)
 {
 	if (_currentArgs.count > argumentNumber) {
